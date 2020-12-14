@@ -12,7 +12,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BroadcastApi.Controllers
+namespace BroadcastApi.Controllers.Api
 {
     [Route("api/[controller]")]
     public class AccountController : Controller

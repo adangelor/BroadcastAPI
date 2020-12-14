@@ -4,13 +4,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace BroadcastApi.Controllers
+namespace BroadcastApi.Controllers.Api
 {
     [Route("api/[controller]")]
     public class AuthController : Controller
